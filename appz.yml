@@ -17,6 +17,10 @@ deploy:
   session_affinity: ClientIP
   port: 
    - 8080
+  writable_paths:
+    - /usr/local/tomcat/logs
+    - /usr/local/tomcat/work
+    - /usr/local/tomcat/temp
 
 properties:
   MOD_CLUSTER: modcluster-1-3:6666
