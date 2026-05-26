@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: niranjan-ragi/DEV
+  context: adhilcc/DEV
   replicas: 3
   session_affinity: ClientIP
   port: 
